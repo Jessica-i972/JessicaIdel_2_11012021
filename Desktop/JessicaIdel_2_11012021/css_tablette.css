@@ -1,0 +1,117 @@
+/* CSS Reservia pour tablette avec double breakpoint */
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+
+/* CSS général */
+	body
+	{
+		margin: auto;
+	}
+
+/* Section Header */
+
+	#logo
+	{
+		flex-grow: 1;
+	}
+
+/* Section filtres */
+
+	.list_group .fas
+	{
+   		background-color: #DEEBFF;
+   		color: #0065FC;
+   	}
+
+	.list_group li:hover
+	{
+		background: #DEEBFF;
+		color: #0065FC;
+	}
+
+	.list_group .fas:hover
+	{
+		color: black;
+	}
+
+/* Section les plus populaires */
+
+/* Section Grey areas */
+
+	#hebergement 
+	{
+		order: 2;
+		margin-top: 40px;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	aside 
+	{
+		order: 1;
+		width: 95%;
+		margin: auto;
+	}
+
+	#gray_areas
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#hebergement
+	{
+		width: 90%;
+	}
+
+	aside
+	{
+		width: 90%;
+	}
+
+	#activites
+	{
+		flex-wrap: wrap;
+	}
+
+	#notre_dame
+	{
+		margin-top: 20px;
+	}
+
+	.caption
+	{
+		line-height: 10px;
+	}
+
+	aside h2
+	{
+		margin-left: 44px;
+	}
+
+	.fa-chart-line
+	{
+		margin-right: 40px;
+	}
+
+/* Section activités à marseilles */
+
+	.col4_activites
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	#notre_dame img
+	{
+		/*margin-top: 10px;*/
+	}
+
+	figure#iles
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+}
