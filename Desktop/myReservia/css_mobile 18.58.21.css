@@ -1,0 +1,317 @@
+/* CSS Reservia pour appareils mobiles */
+
+@media screen and (max-width: 767px)
+
+	/* CSS Général du site */
+{
+	h1
+	{
+		font-size: 1.2em;
+	}
+
+	h2
+	{
+		font-size: 1em;
+	}
+
+	h3
+	{
+		font-size: 0.9em;
+	}
+
+	p
+	{
+		font-size: 0.8em;
+	}
+
+/* Section Zone de recherche */
+
+	form
+	{
+		width: 95%;
+		margin: auto;
+	}
+
+	input 
+	{
+		width: 68%;
+		height: 50px;
+		margin: auto;
+		border-width: 2px 0 2px 0;
+	}
+
+	button
+	{
+		background-image: url("images/iconfinder_icon-ios7-search-strong_211817.png");
+		background-size: 30px;
+		background-repeat: no-repeat;
+		width: 50px;
+		border-radius: 10px 10px 10px 10px;
+		color: rgba(255,255,255,1);
+		overflow: hidden;
+		color: #0065FC;
+		background-position: center;
+		height: 50px;
+		padding-top: 22px;
+	}
+
+	button:hover
+	{
+		background: #DEEBFF;
+	    color: #000000;
+	    background-image: url("images/iconfinder_icon-ios7-search-strong_211817.png");
+	    background-size: 30px;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.fas.fa-map-marker-alt
+	{
+		height: 27px;
+	}
+	
+	button span
+	{
+		display: none;
+	}
+
+	.fas.fa-map-marker-alt
+	{
+		padding-top: 20px;
+		padding-bottom: 4px;
+	}
+
+/* Section Header */
+
+	#signup
+	{
+		order: 2;
+		width: auto;
+		margin: auto;
+	}
+
+	#logo
+	{
+		width: 30%;
+		margin-left: 10px;
+	}
+
+	nav
+	{
+		order: 3;
+		width: 100%;
+		flex-wrap: wrap;
+		margin-top: 10px;
+		justify-content: space-around;
+		height: 40px;
+		align-items: center;
+	}
+
+	nav a 
+	{
+		margin: 0;
+		padding-left: 40px;
+		padding-right: 60px;
+		border-bottom: 3px solid #F2F2F2;
+		border-top: none;
+	}
+
+	li a
+	{
+		padding: 20px 0;
+	}
+
+	nav a:hover
+	{
+	color: #0065FC;
+	border-bottom: 3px solid #0065FC;
+	border-top: none;
+	}
+
+	header
+	{
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	#search h1
+	{
+		width: 71%;
+	}
+
+ /* Section Mes filtres */
+
+	#titre_filtres
+	{
+		margin-left: 10px;
+	}
+
+	#filtres
+	{
+		flex-direction: column;
+		margin: 5px 0 0 5px; 
+	}
+
+	#mes_filtres
+	{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.list_group li
+	{
+		margin-top: 10px;
+		margin-right: 0;
+		margin-left: 0;
+		border: 3px solid #F2F2F2;
+	}
+
+	.list_group li:hover
+	{
+		background: #DEEBFF;
+		color: #0065FC;
+	}
+
+	.list_group .fas:hover
+	{
+		color: black;
+	}
+
+	#mes_filtres ul
+	{
+		margin-left: -34px;
+	}
+
+	.fa-info-circle
+	{
+		margin-left: 10px;
+	}
+
+/* Section "hebergements" */
+
+	main
+	{
+		margin-top: 15px;
+	}
+
+	#gray_areas 
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#hebergement
+	{
+		order: 2;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+		border-radius: 0;
+		margin-top: 10px;
+		background: transparent;
+	}
+
+	#mes_hebergements
+	{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+
+/* Section les plus populaires */
+
+	.fa-chart-line
+	{
+		margin-right: 25px;
+	}
+
+	aside
+	{
+		order: 1;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		border-radius: 0;
+	}
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+/* Section hébergement à Marseille */
+
+	article
+	{
+		width: 90%;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+	.caption
+	{
+		line-height: 10px;
+	}
+
+/* Section activités à Marseille */
+
+	#activites_marseilles h2
+	{
+		margin-left: 20px;
+	}
+
+	#activites
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	 #activites figure
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+
+	#activites img
+	{
+		height: 135px;
+		margin: auto;
+		width: 100%;
+	}
+
+	.col_activites, .col2_activites, .col4_activites
+	{
+		width: 100%;
+		max-width: 758px;
+	}
+
+	#activites figure
+	{
+		margin-bottom: 20px;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/* Section Footer */
+
+	.col_footer  
+	{
+		width: 100%;
+	}
+}
