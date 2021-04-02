@@ -1,8 +1,6 @@
 /* CSS du site Reservia */
 
 /* Les éléments principaux du site */
-/*@media all and (min-width: 1025px)
-{*/
 
  /* Police personnalisée */  	
 @font-face {
@@ -14,11 +12,7 @@
          url('polices/raleway-variablefont_wght-webfont.svg#ralewaythin') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-/* Police personnalisée bold pour les h1, h2, h3 */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 /* CSS général de la page */
 body
@@ -294,7 +288,6 @@ button:hover
 article
 {
 	width: 30% ;   
-	background: #ffffff;
 	border: 3px solid #ffffff; 
 	border-radius: 20px;
 	box-shadow: 0 4px 4px #c0c0c0;
@@ -370,7 +363,6 @@ aside
 	display: flex;
 	flex-direction: row;
 	width: 90%;
-	background: #ffffff;
 	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -447,9 +439,6 @@ figcaption span
 	background: #FFFFFF; 
 	height: 40px;
 	border-radius: 0 0 20px 20px;
-	border: 0 5px 5px 5px;
-	border-style: solid;
-	border-color: #F2F2F2;
 	font-weight: bold;
 	margin-top: -4px;
 	padding: 15px 0 0 15px;
@@ -531,7 +520,6 @@ figure#iles
 figure#parc 
 {
 	margin-top: 40px;
-	background: yellow;
 }
 
 .col_activites, #fort, #iles, #notre_dame, #parc
